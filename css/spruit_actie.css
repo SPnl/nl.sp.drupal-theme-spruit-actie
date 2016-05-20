@@ -1,0 +1,175 @@
+.site-header .site-branding {
+  width: 100%;
+  padding: 1em 1.4em 0 1.4em;
+  margin-bottom: 0;
+}
+.site-branding .site-logo {
+  height: 32px;
+  float: left;
+}
+.site-branding .site-name {
+  padding: .4em 0 0 .4em;
+  display: block;
+  overflow: hidden;
+  font-size: 1.42em
+}
+.site-branding .site-name a,
+.site-branding .site-name a:link,
+.site-branding .site-name a:visited {
+  color: #f00;
+}
+
+.page-node-58  .node-actie-webform,
+.page-node-81  .node-actie-webform,
+.page-node-80  .node-actie-webform {
+  background: #f1f1f1;
+  padding: 1.4em 0 2.1em 0;
+  max-width: 100%;
+}
+
+.page-node-58 .node-actie-webform .form-actions, 
+.page-node-81 .node-actie-webform .form-actions, 
+.page-node-80 .node-actie-webform .form-actions {
+  padding-top: 1em;
+}
+
+.page-node-58 .node-actie-webform label, 
+.page-node-81 .node-actie-webform label, 
+.page-node-80 .node-actie-webform label {
+  display: inline-block;
+  width: 100px;
+}
+
+.page-node-58 .node-actie-webform .form-type-checkbox label, 
+.page-node-81 .node-actie-webform .form-type-checkbox label, 
+.page-node-80 .node-actie-webform .form-type-checkbox label {
+  width: auto;
+}
+
+.page-node-58 .webform-component--toelichting, 
+.page-node-81 .webform-component--toelichting, 
+.page-node-80 .webform-component--toelichting {
+  color: #888;
+}
+
+.page-node-58 .node-actie-webform .form-text, 
+.page-node-81 .node-actie-webform .form-text, 
+.page-node-80 .node-actie-webform .form-text {
+  background: #fff;
+}
+
+.page-node-58 .breadcrumb, 
+.page-node-81 .breadcrumb, 
+.page-node-80 .breadcrumb {
+  display: none;
+}
+
+.page-node-81 .content .pane-2 .social li, 
+.content .pane-sp-social .social li {
+  height: 73px;
+}
+
+.content ul {
+  margin left: auto;
+  margin right: auto;
+}
+
+.content ul.social {
+  padding: 0; 
+}
+.content .social li a {
+  border: none;
+}
+.content .social .facebook a {
+  background: #3b5998;
+  color: #fff;
+}
+.content .social .twitter a {
+  background: #55acee;
+  color: #fff;
+}
+.content .social .whatsapp a {
+  background-color: #43d854;
+  color: #fff;
+}
+.content .social a:hover {
+  background: #000;
+  border-color: #000;
+}
+
+.content .links {
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Actie page menu */
+.content .menu {
+  overflow: hidden;
+}
+.content .menu li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+.content .menu li a {
+  padding: .4em .72em;
+  display: inline-block;
+  border: 1px solid #f60000
+}
+.content .menu li a.active {
+  display: inline-block;
+  border: 1px solid #bbb;
+}
+
+.webform-component--postcode .form-text,
+.webform-component--huisnummer .form-text {
+	width: 160px;
+}
+
+ul.sp_buttons {
+  font-family: HelveticaInseratLTPro, Impact, 'Sans serif';
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.primary-content .sp_buttons li {
+  font-size: 1em;
+  list-style: none;
+  float: left;
+}
+
+.sp_buttons li a {
+  margin-right: .4em;
+  padding: .4em .72em;
+  color: #fff;
+  display: block;
+  border: 1px solid #f60000;
+  text-align: center;
+  background: #f60000;
+}
+
+.sp_buttons li a:hover {
+  border: 1px solid #000;
+  color: #fff;
+  background: #000000;
+  transition: .4s;
+}
+
+.sp_buttons:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+@media only screen and (min-width: 768px) { 
+  .site-header .site-branding .site-name {
+    font-size: 2.8em;
+    padding-top: 3px;
+  }
+}
+
+.no-touch .content .social .whatsapp {
+  display: none;
+}
+

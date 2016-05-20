@@ -1,0 +1,167 @@
+.site-header,
+.page-wrapper:after {
+  display: none;
+}
+
+.site-footer {
+  background: #fff;
+  padding: 1em;
+}
+
+.page-overzicht {
+  background: #24408f;
+}
+.blauw {
+ color: #24408f;
+}
+.groen {
+  color: #88b040;
+}
+.header-nzf {
+  background-color: #fff;
+  padding:2rem 0 2rem 0;
+}
+.header-nzf h1 {
+  font-size: 5rem;
+  background: #fff;
+  margin: 0;
+}
+
+.form-submit {
+  background: #88b040;
+  border: 1px solid #88b040;
+}
+.form-submit:hover {
+  background: #bada55;
+  border: 1px solid #88b040;
+  color: #fff;
+}
+.form-item .form-text:focus {
+  background: #fff;
+  border-color: #88b040;
+}
+.content a,
+.content a:link {
+  color: #88b040;
+  border-bottom: none;
+}
+.content a:hover {
+    border-bottom: 2px solid #88b040;
+}
+
+
+.form-type-checkbox input:checked + label:before {
+    content: 'v';
+    color: #88b040;
+    background: #fff;
+    border-color: #88b040;
+}
+.form-type-checkbox input:checked + label {
+    color: #fff;
+}
+.no-touch .form-type-checkbox:hover input:checked + label:before {
+    color: #88b040;
+}
+
+
+.content .contact-form form {
+  max-width: 960px;
+}
+.form-item input {
+  max-width: 640px;
+}
+.form-itme form-actions {
+  max-width: 640px;
+}
+
+.social-share li a {
+    color: #24408f;
+}
+.social-share li a:hover {
+    color: #88b040;
+}
+.social-share li span {
+    background: #88b040;
+}
+
+.contact-form {
+  background: #24408f;
+  color: #fff;
+  padding: 2rem 0 4rem 0;
+}
+.primary-content .content .contact-form h2 {
+  margin: 0;
+  padding: 0;
+}
+.primary-content .content .contact-form p {
+  color: #fff;
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+  max-width: 640px;
+  margin: 1rem 0;
+}
+.contact-form .form-actions .form-submit {
+  margin: initial !important;
+  max-width: 640px;
+  width: 100%;
+}
+.contact-form .webform-component--disclaimer p {
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.webform-component--postcode .form-text, .webform-component--huisnummer .form-text {
+  width: 100%;
+}
+
+
+/* meer */
+.meer {
+  background: #fff;
+  padding: 1rem 0 1rem 0;
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+}
+.primary-content .content .meer p {
+}
+.meer h2 {
+  color: #88b040;
+}
+
+/* bevestings pagina */
+.webform-confirmation {
+  max-width: 960px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+a.ajax-processed {
+    color: #fff;
+    font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+    margin-left: 1.4rem;
+}
+a:hover.ajax-processed {
+  border-bottom: 1px solid #fff;
+}
+.primary-content .content .webform-confirmation h2 {
+  margin-left: 1.4rem;
+}
+
+/* mobiel fix */
+@media only screen and (max-width: 830px){
+  .header-nzf h1 {
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 675px){
+  .header-nzf h1 {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 515px){
+  .header-nzf h1 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 360px){
+  .header-nzf h1 {
+    font-size: 1.7rem;
+  }
+}

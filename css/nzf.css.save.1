@@ -1,0 +1,70 @@
+.site-header,
+.page-wrapper:after {
+  display: none;
+}
+
+.blauw {
+ color: #24408f;
+}
+.groen {
+  color: #88b040;
+}
+.header-nzf h1 {
+  font-size: 5rem;
+  line-height: 2rem;
+}
+
+.form-submit {
+  background: #88b040;
+  border: 1px solid #88b040;
+}
+.content a,
+.content a:link {
+  color: #24408f;
+}
+.form-type-checkbox input:checked + label {
+  color: #000;
+}
+.form-type-checkbox input:checked + label:before {
+  color: #88b040;
+  border-color: #000;
+}
+.no-touch .form-type-checkbox:hover input:checked + label:before {
+  color: #24408f;
+}
+.social-share li a {
+    color: #24408f;
+}
+.social-share li a:hover {
+    color: #88b040;
+}
+.social-share li span {
+    background: #88b040;
+}
+
+/* mobiel fix */
+@media only screen and (max-width: 830px){
+  .header-nzf h1 {
+    font-size: 4rem;
+    line-height: 2rem;
+}
+@media only screen and (max-width: 675px){
+  .header-nzf h1 {
+    font-size: 3rem;
+    line-height: 1rem;
+}
+@media only screen and (max-width: 515px){
+  .header-nzf h1 {
+    font-size: 2rem;
+    line-height: 1rem;
+}
+@media only screen and (max-width: 360px){
+  .header-nzf h1 {
+    font-size: 1.7rem;
+    line-height: 1rem;
+}
+.form-submit:hover {
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+}

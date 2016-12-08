@@ -16,7 +16,11 @@
 .site-branding .site-name a,
 .site-branding .site-name a:link,
 .site-branding .site-name a:visited {
-  color: #f00;
+  color: #f60000;
+}
+
+.introduction h1.pane-title {
+  color: #f60000;
 }
 
 .page-node-58  .node-actie-webform,

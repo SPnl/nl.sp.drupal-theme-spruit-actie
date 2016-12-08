@@ -1,13 +1,12 @@
 name = SPruit-Actie
 description = Child theme van SPruit voor actie.sp.nl
 package = Other
-version = 1.0
+version = 1.1
 core = 7.x
 base theme = spruit
 stylesheets[all][] = css/spruit_actie.css
 stylesheets[all][] = css/actie_dev.css
 stylesheets[all][] = css/social_share.css
-stylesheets[all][] = css/nzf.css
 
 regions[highlight] = Highlighted content
 regions[content]   = Primary content

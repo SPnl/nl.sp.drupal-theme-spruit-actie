@@ -10,7 +10,7 @@
   position: fixed;
   top: 190px;
   right: 0;
-    z-index: 9000;
+  z-index: 9000;
 }
 .social-share li {
   padding: 0;
@@ -40,14 +40,14 @@
   color: white;
   z-index: -500;
   position: fixed;
-  right: -108px;
+  right: -160px;
   margin-left:0;
-  width: 150px;
+  width: 160px;
   font-size: 1rem;
   transition: margin 0.4s ease;
 }
 .social-share li a:hover span {
-  margin-right: 150px;
+  margin-right: 202px;
   transition: margin 0.4s ease;
 }
 /* alleen voor mobiel laten zien */
